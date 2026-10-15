@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Copa 2026</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>🏆 Copa 2026 Dashboard!</h1>
+
+        <input id="buscarTime" placeholder="Buscar time...">
+        <button id="btnAtualizar">Atualizar</button>
+
+        <p id="status"></p>
+        <p id="ultimaAtualizacao"></p>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>⚽ Times</h2>
+            <p>Total: <span id="totalTimes"></span></p>
+            <div id="listaSelecoes"></div>
+        </section>
+
+        <section>
+            <h2>🏟️ Estádios</h2>
+            <div id="listaEstadios"></div>
+        </section>
+
+        <section>
+            <h2>📊 Grupos</h2>
+            <div id="listaGrupos"></div>
+        </section>
+
+        <section>
+            <h2>🔥 Jogos</h2>
+            <div id="jogosDestaque"></div>
+            <div id="proximosJogos"></div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
